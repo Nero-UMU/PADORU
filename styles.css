@@ -1,0 +1,255 @@
+.click-text {
+  position: absolute;
+  display: none;
+  animation: fadeOut 3s forwards; /* 设置动画效果 */
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* 在样式表中定义动画 */
+@keyframes updown {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+    75% {
+      transform: translateY(-3px);
+    }
+    100% {
+      transform: translateY(3px);
+    }
+  }
+  
+  body,html {
+    overflow: hidden;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* 标准语法 */
+    
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  }
+  /* 应用动画到文本元素 */
+  .updown-text {
+    font-size: 40px;
+    animation: updown 0.2s cubic-bezier(0.25, 0.45, 0.45, 0.95) infinite; /* 应用上下颠簸动画 */
+  }
+
+
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .scrolling-text1 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 14s linear infinite;
+  }
+  .scrolling-text2 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 21s linear infinite;
+  }
+
+  .scrolling-text3 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 25s linear infinite;
+  }
+
+  .scrolling-text4 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+  }
+
+  .scrolling-text5 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 27s linear infinite;
+  }
+
+  .scrolling-text6 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 17s linear infinite;
+  }
+  .scrolling-text7 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 8s linear infinite;
+  }
+  .scrolling-text8 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 18s linear infinite;
+  }
+  .scrolling-text9 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 28s linear infinite;
+  }
+  .scrolling-text10 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 7s linear infinite;
+  }
+  .scrolling-text11 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 22s linear infinite;
+  }
+  .scrolling-text12 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 9s linear infinite;
+  }
+  .scrolling-text13 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 19s linear infinite;
+  }
+  .scrolling-text14 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 11s linear infinite;
+  }
+  .scrolling-text15 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+  }
+  .scrolling-text16 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 6s linear infinite;
+  }
+  .scrolling-text17 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+  }
+  .scrolling-text18 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  .scrolling-text19 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 5s linear infinite;
+  }
+  .scrolling-text20 {
+    z-index: 0;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 12s linear infinite;
+  }
+
+  .scrolling-img1 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 22s linear infinite;
+  }
+  .scrolling-img2 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 14s linear infinite;
+  }
+  .scrolling-img3 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+  }
+  .scrolling-img4 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 11s linear infinite;
+  }
+  .scrolling-img5 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 19s linear infinite;
+  }
+  .scrolling-img6 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 25s linear infinite;
+  }
+  .scrolling-img7 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 18s linear infinite;
+  }
+  .scrolling-img8 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  .scrolling-img9 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 26s linear infinite;
+  }
+  .scrolling-img10 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 32s linear infinite;
+  }
+  .scrolling-img11 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 29s linear infinite;
+  }
+  .scrolling-img12 {
+    z-index: 10;
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 23s linear infinite;
+  }

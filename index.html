@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PADORU PADORU!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Padoru.png" type="image/x-icon">
+</head>
+
+<body>
+  <audio id="myAudio">
+    <source src="padoru.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    // 获取音频元素
+    var audio = document.getElementById("myAudio");
+    document.addEventListener('click', function () {
+      var audio = document.getElementById('myAudio');
+      audio.play();
+    });
+
+    document.body.addEventListener('click', function (event) {
+      const clickText = document.getElementById('clickText');
+
+      // 获取点击位置的坐标
+      const x = event.clientX;
+      const y = event.clientY;
+
+      // 设置文字位置
+      clickText.style.left = x + 'px';
+      clickText.style.top = y + 'px';
+      clickText.style.display = 'block'; // 显示文字
+
+      // 在一段时间后隐藏文字
+      setTimeout(function () {
+        clickText.style.display = 'none';
+      }, 2000); // 2秒后消失
+    });
+
+  </script>
+
+  <div class="click-text" id="clickText" style="font-size: 20px;color:red;font-weight: bold">
+    UMU! UMU!
+  </div>
+
+
+
+  <div class="updown-text">
+    <p style="color: red;font-weight: bold;">PADORU PADORU!</p>
+  </div>
+
+
+  <div class="scrolling-text1" , style="position: fixed;top:10%;font-size:87px;color:#6a8bd1">
+    帕多路
+  </div>
+  <div class="scrolling-text2" , style="position: fixed;bottom:50%;font-size:93px;color: #a4b9a0">
+    PADORU
+  </div>
+  <div class="scrolling-text3" , style="position: fixed;top:20%;font-size:72px;color:#cc3f52">
+    PADORU
+  </div>
+  <div class="scrolling-text4" , style="position: fixed;bottom:10%;font-size:61px;color: #7e0b3e">
+    帕多路
+  </div>
+  <div class="scrolling-text5" , style="position: fixed;top: 20%;font-size:53px;color: #7e0b3e">
+    帕多路
+  </div>
+  <div class="scrolling-text6" , style="position: fixed;bottom: 30%;font-size:97px;color: #2e71b5">
+    帕多路
+  </div>
+  <div class="scrolling-text7" , style="position: fixed;top: 60%;font-size:84px;color: #faa7b8">
+    PADORU
+  </div>
+  <div class="scrolling-text8" , style="position: fixed;top: 25%;font-size:65px;color: #5a3f8c">
+    帕多路
+  </div>
+  <div class="scrolling-text9" , style="position: fixed;bottom: 35%;font-size:52px;color: #2e71b5">
+    PADORU
+  </div>
+  <div class="scrolling-text10" , style="position: fixed;top: 0%;font-size:76px;color: #f2b14b">
+    帕多路
+  </div>
+  <div class="scrolling-text11" , style="position: fixed;top:57%;font-size:38px;color:#9a3c85">
+    PADORU
+  </div>
+  <div class="scrolling-text12" , style="position: fixed;bottom:34%;font-size:44px;color: #6b8f27">
+    PADORU
+  </div>
+  <div class="scrolling-text13" , style="position: fixed;top:92%;font-size:32px;color:#e59f17">
+    帕多路
+  </div>
+  <div class="scrolling-text14" , style="position: fixed;bottom:18%;font-size:50px;color: #3f79af">
+    PADORU
+  </div>
+  <div class="scrolling-text15" , style="position: fixed;top: 76%;font-size:45px;color: #c15749">
+    PADORU
+  </div>
+  <div class="scrolling-text16" , style="position: fixed;bottom: 41%;font-size:33px;color: #72b04d">
+    帕多路
+  </div>
+  <div class="scrolling-text17" , style="position: fixed;top: 89%;font-size:47px;color: #a24e96">
+    PADORU
+  </div>
+  <div class="scrolling-text18" , style="position: fixed;top: 5%;font-size:41px;color: #5c9dc2">
+    帕多路
+  </div>
+  <div class="scrolling-text19" , style="position: fixed;bottom: 63%;font-size:36px;color: #d47a23">
+    PADORU
+  </div>
+  <div class="scrolling-text20" , style="position: fixed;top: 28%;font-size:39px;color: #8e5fba">
+    帕多路
+  </div>
+
+  <div class="scrolling-img1" , style="position: fixed;top:76%;">
+    <img src="PadoruSpin.gif">
+  </div>
+  <div class="scrolling-img2" , style="position: fixed;top:42%;">
+    <img src="PadoruSpinFast.gif">
+  </div>
+  <div class="scrolling-img3" , style="position: fixed;bottom:89%;">
+    <img src="PadoruSpinFastest.gif">
+  </div>
+  <div class="scrolling-img4" , style="position: fixed;bottom:5%;">
+    <img src="Padorucopter.gif">
+  </div>
+  <div class="scrolling-img5" , style="position: fixed;bottom:61%;">
+    <img src="PadoruSpin.gif">
+  </div>
+  <div class="scrolling-img6" , style="position: fixed;bottom:33%;">
+    <img src="PadoruSpinFast.gif">
+  </div>
+  <div class="scrolling-img7" , style="position: fixed;top:27%;">
+    <img src="PadoruSpinFastest.gif">
+  </div>
+  <div class="scrolling-img8" , style="position: fixed;top:84%;">
+    <img src="Padorucopter.gif">
+  </div>
+  <div class="scrolling-img9" , style="position: fixed;bottom:18%;">
+    <img src="PadoruSpin.gif">
+  </div>
+  <div class="scrolling-img10" , style="position: fixed;bottom:70%;">
+    <img src="PadoruSpinFast.gif">
+  </div>
+  <div class="scrolling-img11" , style="position: fixed;top:49%;">
+    <img src="PadoruSpinFastest.gif">
+  </div>
+  <div class="scrolling-img12" , style="position: fixed;top:12%;">
+    <img src="Padorucopter.gif">
+  </div>
+
+</body>
+
+</html>
