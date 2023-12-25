@@ -1,3 +1,8 @@
+* {
+  cursor: url("正常点击.cur"), default;
+}
+
+
 .click-text {
   position: absolute;
   display: none;
